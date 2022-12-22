@@ -43,13 +43,41 @@ img {
     width: 100%;
 }
 
+
+
+
+/* CSS */
 .button.contact {
-    background-color: transparent;
-    color: #ff7f50;
-    text-transform: uppercase;
-    border: 2px solid #ff7f50;
+  background-color: #fbeee0;
+  border: 2px solid #b97b38;
+  border-radius: 30px;
+  box-shadow: #b97b38 4px 4px 0 0;
+  color: #b97b38;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button.contact :hover {
+  background-color: #fff;
+}
+
+.button.contact :active {
+  box-shadow: #b97b38 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button.contact  {
+    min-width: 120px;
+    padding: 0 25px;
   }
-  .button.contact:hover {
-    background-color: #ff7f50;
-    color: #ffffff;
-  }
+}
