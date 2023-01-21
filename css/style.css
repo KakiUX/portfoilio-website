@@ -1,62 +1,94 @@
+header {
+  background-color: #ffffff;
+  padding: 10px 0 15px;
+  border-bottom: 3px solid #4a4a4a;
+  text-align: center;
+}
+.logo {
+  width: 100px;
+}
+nav a{
+  padding: 0 10px;
+}
 body {
-    background-color: #303141;
-    font-family: 'manrope', sans-serif;
-    font-size: 20px;
-    /* Sets the font size to 20px */
-    font-weight: 300;
-    /* Sets the font weight to 300 */
-    line-height: 1.6;
-    /* Sets the line-height to 1.6 * the font-size */
-    color: #ffffff;
+  background-color: #303141;
+  font-family: 'manrope', sans-serif;
+  font-size: 20px;
+  /* Sets the font size to 20px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #ffffff;
+  <div id="hero"><div class="container"><h1>
+}
 
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
 }
-h1, h2, h3, h4 {
-    line-height: 1.4;
-  }
-  h1 {
-    font-size: 2.75em;
-    font-weight: 700;
-  }
-  
-  h2 {
-    font-size: 2.25em;
-    font-weight: 600;
-  }
-  
-  h3 {
-    font-size: 1.75em;
-    font-weight: 400;
-  }
-  h4 {
-    font-size: 1.35em;
-    font-weight: 400;
-  }
-  a {
-    color: #ff7f50;
-    text-decoration: none; /* No underlining */
-  }
-  a:hover {
-    color: #cc6540;
-    text-decoration: underline; /* Underlining when hovering over a link */
-  }
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+a {
+  color: #ff7f50;
+  text-decoration: none;
+  /* No underlining */
+}
+
+a:hover {
+  color: #cc6540;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
+}
+
 img {
-    width: 100%;
+  width: 100%;
 }
+
 /* a element */
 a {
   color: #ff7f50;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
+
 a:hover {
   color: #cc6540;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
-a:visited { /* visited link */
+
+a:visited {
+  /* visited link */
   color: #ff7f50;
 }
-a:active { /* selected link */
+
+a:active {
+  /* selected link */
   color: #994c30;
 }
+
 /* accessibility*/
 a:hover,
 a:focus {
@@ -94,30 +126,66 @@ a:focus {
 }
 
 @media (min-width: 768px) {
-    .button.contact  {
+  .button.contact {
     min-width: 120px;
     padding: 0 25px;
   }
 }
 
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #ff7f50;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
+  /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  border-bottom: 2px solid #994c30;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
 .button.contact {
   background-color: transparent;
   color: #ff7f50;
   text-transform: uppercase;
   border: 2px solid #ff7f50;
 }
+
 .button.contact:hover {
   background-color: #ff7f50;
   color: #ffffff;
 }
 
+footer {
+  background-color: #191a26;
+  padding: 40px 0 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+.hero h1 span{
+  display: block;
+  font-size: 70%;
+  margin-top: 1em;
+}
+.container{
+  padding: 0 15px;
+}
+.social a{
+  width: 100%;
+
+  max-width: 40px;
+  display: inline-block;
+  padding: 8px ;
+
+}
+.email{ 
+margin-bottom: 30px;
+}
+.linkedin .cls-1{
+  fill: #007fb5;
+}
+.linkedin:hover .cls-1{
+  fill: #00ffdb;
+}
