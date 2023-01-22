@@ -12,10 +12,10 @@ nav a{
 }
 body {
   background-color: #303141;
-  font-family: 'manrope', sans-serif;
+  font-family: 'nytyt', sans-serif;
   font-size: 20px;
   /* Sets the font size to 20px */
-  font-weight: 300;
+  font-weight: 600;
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
@@ -187,4 +187,13 @@ margin-bottom: 30px;
 }
 .linkedin:hover .cls-1{
   fill: #8dd2f0;
+}
+.column{
+  text-align: center;
+}
+.row{
+  text-align: center;
+}
+.ul{
+  text-align: center;
 }
