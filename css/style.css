@@ -1,5 +1,5 @@
 header {
-  background-color: ##191a26;
+  background-color: #191a26;
   padding: 10px 0 15px;
   border-bottom: 3px solid #4a4a4a;
   text-align: center;
@@ -15,12 +15,11 @@ body {
   font-family: 'nytyt', sans-serif;
   font-size: 20px;
   /* Sets the font size to 20px */
-  font-weight: 600;
+  font-weight: 400;
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
   color: #ffffff;
-  <div id="hero"><div class="container"><h1>
 }
 
 h1,
@@ -50,18 +49,6 @@ h4 {
   font-weight: 400;
 }
 
-a {
-  color: #ff7f50;
-  text-decoration: none;
-  /* No underlining */
-}
-
-a:hover {
-  color: #cc6540;
-  text-decoration: underline;
-  /* Underlining when hovering over a link */
-}
-
 img {
   width: 100%;
 }
@@ -73,12 +60,11 @@ a {
   /* No underlining */
 }
 
-a:hover {
+a:hover, a:focus {
   color: #cc6540;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
-
 a:visited {
   /* visited link */
   color: #ff7f50;
@@ -90,19 +76,14 @@ a:active {
 }
 
 /* accessibility*/
-a:hover,
-a:focus {
-  color: #cc6540;
-  text-decoration: underline;
-}
 
 /* button*/
 .button.contact {
   background-color: #fbeee0;
-  border: 2px solid #b97b38;
+  border: 2px solid #f2c493;
   border-radius: 30px;
   box-shadow: #b97b38 4px 4px 0 0;
-  color: #b97b38;
+  color: #f2aa5e;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -125,12 +106,6 @@ a:focus {
   transform: translate(2px, 2px);
 }
 
-@media (min-width: 768px) {
-  .button.contact {
-    min-width: 120px;
-    padding: 0 25px;
-  }
-}
 
 .button {
   display: inline-block;
@@ -141,23 +116,41 @@ a:focus {
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30;
+  border-bottom: 2px solid #efaa91;
   /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+button:visited {
+  box-shadow: #f1a049 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+.button:hover,
+.button:focus{
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+.button:active{
+  box-shadow: #d1eb74 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
 
-.button.contact {
-  background-color: transparent;
+/* nav*/
+.nav { color: #ff7f50;
+  text-decoration: none;
+  /* No underlining */
+
+}
+.nav:visited{
   color: #ff7f50;
-  text-transform: uppercase;
-  border: 2px solid #ff7f50;
 }
-
-.button.contact:hover {
-  background-color: #ff7f50;
-  color: #ffffff;
+.nav:hover,
+nav.focus{
+  color: #cc6540;
+  text-decoration: underline; /* Underlining when hovering over a link */
 }
-
+nav:active{
+  color: #994c30;
+}
 footer {
   background-color: #191a26;
   padding: 40px 0 20px;
