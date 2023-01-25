@@ -1,0 +1,1 @@
+console.log("Life is more than just surviving")
