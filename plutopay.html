@@ -11,18 +11,22 @@
 <link href="https://fonts.googleapis.com/css?family=kanit:300,400,700" rel="stylesheet">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/0dd0633230.js" crossorigin="anonymous"></script>
     <title>UX Project Plutopay</title>
 </head>
 
 <body>
     <header>
         <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
             <a href="index.html"><img src="img\kakilogo.svg" alt="logo" class="logo"></a>
             <nav>
                 <a href="about.html">About</a>
                 <a href="index.html">Work</a>
                 <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a>
             </nav>
+        </div>
         </div>
 
     </header>
@@ -153,7 +157,8 @@
             </p>
         </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
