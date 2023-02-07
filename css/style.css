@@ -10,6 +10,10 @@ header {
 .logo {
   width: 80px;
 }
+html{
+  scroll-behavior: smooth;
+
+}
 nav a{
   padding: 15px 10px;
   display: block;
@@ -71,7 +75,12 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
-
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h1-center{
+  text-align:center;
+}
 img {
   width: 100%;
 }
@@ -108,10 +117,10 @@ a:active {
 /* button*/
 .button.contact {
   background-color: #fbeee0;
-  border: 2px solid #f2c493;
+  border: 2px solid #cc904f;
   border-radius: 97px;
   box-shadow: #b97b38 4px 4px 0 0;
-  color: #f2aa5e;
+  color: #e69946;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -126,6 +135,8 @@ a:active {
   transition-duration: 0.2s;
   transition-property: opacity;
   text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .button.contact :hover {
@@ -185,6 +196,7 @@ footer {
   background-color: #191a26;
   padding: 40px 0 20px;
   margin-top: 40px;
+  color:#fff;
 }
 footer h2 p{
   color: #fec703;
@@ -261,6 +273,9 @@ margin-bottom: 30px;
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+.animation{
+  padding:80px 0 40px 0;
+}
 .animation .row{
   display: flex;
   justify-content: space-between;
@@ -297,10 +312,10 @@ blockquote{
 }
 
 .design-process{
-  padding: 40px 0;
+  padding: 0 0 40px;
 }
 .design-process .row{
-  background-color: rgb(109, 108, 85);
+  background-color: #6d968e;
   display: flex;
   flex-direction: column;
   justify-content: center;
