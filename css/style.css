@@ -386,6 +386,15 @@ img {vertical-align: middle;}
   color: black;
 }
   
+.container-about .column {
+  text-align: left;
+
+}
+
+.container-about .column h1, h2, h3{
+  opacity: 90%;
+  color:#fec703
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
