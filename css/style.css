@@ -392,12 +392,11 @@ img {vertical-align: middle;}
 
 }
 
-.container-about .column h1, h2, h3 {
+.container-about .column {
   opacity: 90%;
-  color:#fec703;
   margin-left: 20px;
 }
-.container-about p{
+.container-about {
   margin-left:20px;
 }
 
