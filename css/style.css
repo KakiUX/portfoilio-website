@@ -137,6 +137,7 @@ a:active {
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 40px;
+  margin-left: 20px;
 }
 
 .button.contact :hover {
@@ -391,10 +392,17 @@ img {vertical-align: middle;}
 
 }
 
-.container-about .column h1, h2, h3{
+.container-about .column h1, h2, h3 {
   opacity: 90%;
-  color:#fec703
+  color:#fec703;
+  margin-left: 20px;
+
 }
+.container-about p{
+  margin-left:20px;
+}
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -491,6 +499,10 @@ justify-content: space-between;
   background-color: rgb(217, 217, 168);
 color: #191a26;
 
+ }
+
+ .column-video{
+  width:640px
  }
 /* ==============================
 Medium devices (1024px and larger)
