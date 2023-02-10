@@ -395,8 +395,15 @@ img {vertical-align: middle;}
 .container-about .column {
   opacity: 90%;
   margin-left: 10px;
+  color:#d4a808;
+
 }
 
+
+.container-about .about-content {
+  color:#fff;
+  font-style: inherit;
+}
 
 .video-container {
   position: relative;
@@ -412,6 +419,7 @@ img {vertical-align: middle;}
 }
 .cvbutton{
   display: flex;
+  justify-content: center;
 }
 /* ==============================
 Medium devices (640px and larger)
