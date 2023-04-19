@@ -335,8 +335,24 @@ blockquote{
 }
 .design-process .design-process-element ul{
   list-style-type: none;
-padding:0;
-margin:0;
+  padding:2em 1em;
+}
+
+.websiteCaseStudy .Accessibility img{
+  width:auto;
+  height:90px;
+}
+.websiteCaseStudy .container h1{
+  color: #d4a808;
+  font-size: 2em;
+  font-weight: 700;
+}
+.websiteCaseStudy .hero .column{
+  text-align: left;
+  background-color: #917305;
+  background-;
+  padding: auto;
+  max-width: auto;
 }
 
 .design-process img{
