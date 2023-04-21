@@ -207,7 +207,9 @@ footer h2 p{
   font-size: 70%;
   margin-top: 1em;
 }
-
+.column col-6 col-md-4{
+  margin-bottom:2em;
+}
 .container{
   padding: 0 15px;
 }
@@ -232,6 +234,7 @@ margin-bottom: 30px;
 }
 .row{
   text-align: center;
+  margin-bottom: 2em;
 }
 .ul{
   text-align: center;
